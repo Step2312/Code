@@ -1,0 +1,13 @@
+2022-11-19 17:56:30.339 | INFO     | __main__:<module>:50 - 使用嵌入法 RandomForestClassifier 进行特征选择,剩余(894, 17)个特征
+2022-11-19 17:56:30.342 | INFO     | __main__:<module>:54 - 剩余的特征是：['age', 'albumin', 'total bilirubin', 'urea', 'creatinine', 'Uric Acid', 'total cholesterol', 'triglyceride', 'glycosylated hemoglobin', 'activated partial thromboplastin time', 'urine protein quantity', '24h urine protein quantity', 'Diabetes duration', 'C2/C0', 'NLR', 'PLR', 'HOMA-IR']
+2022-11-19 17:56:30.342 | INFO     | __main__:<module>:58 - 使用 SMOTETomek 混合采样
+2022-11-19 17:56:30.344 | INFO     | __main__:<module>:61 - 数据平衡前：非DPN组有382条,DPN组有512条
+2022-11-19 17:56:30.366 | INFO     | __main__:<module>:63 - 数据平衡后：非DPN组有467条,DPN组有467条
+2022-11-19 17:56:30.547 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-19 17:56:31.766 | WARNING  | __main__:<module>:40 - 0.713	0.75	0.638	0.69
+2022-11-19 17:56:32.246 | WARNING  | __main__:<module>:40 - 0.67	0.667	0.681	0.674
+2022-11-19 17:56:32.714 | WARNING  | __main__:<module>:40 - 0.745	0.735	0.766	0.75
+2022-11-19 17:56:33.181 | WARNING  | __main__:<module>:40 - 0.681	0.681	0.681	0.681
+2022-11-19 17:56:33.641 | WARNING  | __main__:<module>:40 - 0.72	0.738	0.674	0.705
+2022-11-19 18:02:35.301 | INFO     | __main__:<module>:16 - 调参结束，最佳结果为:0.6979166666666666
+2022-11-19 18:02:35.302 | INFO     | __main__:<module>:17 - 调参结束，最佳参数为:{'penalty': 'l2', 'C': 0.3717744628015701, 'max_iter': 4714}

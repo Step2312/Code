@@ -1,0 +1,37 @@
+2022-10-20 10:49:47.650 | INFO     | __main__:<module>:141 - 0.776255707762557
+2022-10-20 10:49:47.652 | INFO     | __main__:<module>:142 - {'score_func': 'mutual_info_classif', 'k': 62, 'n_estimators': 5582, 'max_depth': 60, 'grow_policy': 'depthwise', 'learning_rate': 0.0014302902407764757, 'gamma': 0.0002330800172456625, 'reg_lambda': 0.02768677127310926, 'reg_alpha': 0.000306933675174372, 'subsample': 0.6570261959421348, 'colsample_bytree': 0.8862789639679443}
+2022-10-20 10:49:47.659 | INFO     | __main__:<module>:173 - 测试集特征筛选前:(219, 153)
+2022-10-20 10:49:47.942 | INFO     | __main__:<module>:175 - 测试集特征筛选后:(219, 62)
+2022-10-20 10:49:47.953 | INFO     | __main__:<module>:177 - 数据平衡前:Counter({0.0: 111, 1.0: 108})
+2022-10-20 10:49:47.968 | INFO     | __main__:<module>:179 - 数据平衡后:Counter({0.0: 87, 1.0: 87})
+2022-10-20 10:49:57.152 | WARNING  | __main__:<module>:196 - 0.862	0.0	0.0	0.0
+2022-10-20 10:50:07.784 | WARNING  | __main__:<module>:196 - 0.862	0.0	0.0	0.0
+2022-10-20 10:50:18.367 | WARNING  | __main__:<module>:196 - 0.879	0.0	0.0	0.0
+2022-10-20 10:50:19.539 | WARNING  | __main__:<module>:202 - accuracy		mean:0.868	std:0.008
+2022-10-20 10:50:19.547 | WARNING  | __main__:<module>:204 - precision		mean:0.0	std:0.0
+2022-10-20 10:50:19.547 | WARNING  | __main__:<module>:206 - recall		mean:0.0	std:0.0
+2022-10-20 10:50:19.551 | WARNING  | __main__:<module>:208 - f1		mean:0.0	std:0.0
+2022-10-20 10:54:23.332 | INFO     | __main__:<module>:141 - 0.7899543378995434
+2022-10-20 10:54:23.335 | INFO     | __main__:<module>:142 - {'score_func': 'f_classif', 'k': 70, 'n_estimators': 5001, 'max_depth': 74, 'grow_policy': 'depthwise', 'learning_rate': 2.6280139105888977e-05, 'gamma': 0.20731923827501153, 'reg_lambda': 0.37987176415997864, 'reg_alpha': 0.001118968127959213, 'subsample': 0.8333990435308212, 'colsample_bytree': 0.3665548377318478}
+2022-10-20 10:54:23.341 | INFO     | __main__:<module>:173 - 测试集特征筛选前:(219, 153)
+2022-10-20 10:54:23.350 | INFO     | __main__:<module>:175 - 测试集特征筛选后:(219, 70)
+2022-10-20 10:54:23.360 | INFO     | __main__:<module>:177 - 数据平衡前:Counter({0.0: 111, 1.0: 108})
+2022-10-20 10:54:23.379 | INFO     | __main__:<module>:179 - 数据平衡后:Counter({1.0: 91, 0.0: 91})
+2022-10-20 10:54:32.152 | WARNING  | __main__:<module>:198 - 0.951	0.0	0.0	0.0
+2022-10-20 10:54:42.118 | WARNING  | __main__:<module>:198 - 0.787	0.0	0.0	0.0
+2022-10-20 10:54:52.100 | WARNING  | __main__:<module>:198 - 0.883	0.0	0.0	0.0
+2022-10-20 10:54:53.580 | WARNING  | __main__:<module>:204 - accuracy		mean:0.874	std:0.067
+2022-10-20 10:54:53.580 | WARNING  | __main__:<module>:205 - precision		mean:0.0	std:0.0
+2022-10-20 10:54:53.585 | WARNING  | __main__:<module>:206 - recall		mean:0.0	std:0.0
+2022-10-20 10:54:53.587 | WARNING  | __main__:<module>:207 - f1		mean:0.0	std:0.0
+2022-10-20 10:58:18.101 | INFO     | __main__:<module>:141 - 0.771689497716895
+2022-10-20 10:58:18.105 | INFO     | __main__:<module>:142 - {'score_func': 'f_classif', 'k': 38, 'n_estimators': 5024, 'max_depth': 10, 'grow_policy': 'lossguide', 'learning_rate': 0.002685963085243779, 'gamma': 4.304972169902749e-07, 'reg_lambda': 2.4437911118215944e-07, 'reg_alpha': 0.21831884902311574, 'subsample': 0.6965822874504806, 'colsample_bytree': 0.6038807798859489}
+2022-10-20 10:58:18.111 | INFO     | __main__:<module>:173 - 测试集特征筛选前:(219, 153)
+2022-10-20 10:58:18.118 | INFO     | __main__:<module>:175 - 测试集特征筛选后:(219, 38)
+2022-10-20 10:58:26.548 | WARNING  | __main__:<module>:197 - 0.822	0.0	0.0	0.0
+2022-10-20 10:58:36.644 | WARNING  | __main__:<module>:197 - 0.863	0.0	0.0	0.0
+2022-10-20 10:58:46.371 | WARNING  | __main__:<module>:197 - 0.89	0.0	0.0	0.0
+2022-10-20 10:58:47.516 | WARNING  | __main__:<module>:203 - accuracy		mean:0.858	std:0.028
+2022-10-20 10:58:47.519 | WARNING  | __main__:<module>:204 - precision		mean:0.0	std:0.0
+2022-10-20 10:58:47.520 | WARNING  | __main__:<module>:205 - recall		mean:0.0	std:0.0
+2022-10-20 10:58:47.522 | WARNING  | __main__:<module>:206 - f1		mean:0.0	std:0.0

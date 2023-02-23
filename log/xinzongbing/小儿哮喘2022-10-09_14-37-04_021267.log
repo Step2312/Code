@@ -1,0 +1,47 @@
+2022-10-09 14:38:26.917 | INFO     | __main__:<cell line: 147>:147 - 0.8387096774193549
+2022-10-09 14:38:26.917 | INFO     | __main__:<cell line: 148>:148 - {'max_depth': 3, 'grow_policy': 'lossguide', 'learning_rate': 0.00039285317341921093, 'gamma': 0.03148654152127534, 'reg_lambda': 8.947375521134485e-05, 'reg_alpha': 0.0013764820925834687, 'subsample': 0.8114893416876382, 'colsample_bytree': 0.25142151840263116}
+2022-10-09 14:38:27.364 | WARNING  | __main__:<cell line: 160>:176 - 0.598	0.757	0.712	0.734	0.402	0.313
+2022-10-09 14:38:27.776 | WARNING  | __main__:<cell line: 160>:176 - 0.588	0.747	0.709	0.728	0.412	0.32
+2022-10-09 14:38:28.190 | WARNING  | __main__:<cell line: 160>:176 - 0.743	0.838	0.819	0.829	0.257	0.2
+2022-10-09 14:38:28.190 | WARNING  | __main__:<cell line: 179>:179 - precision		mean:0.781	std:0.041
+2022-10-09 14:38:28.190 | WARNING  | __main__:<cell line: 181>:181 - recall		mean:0.747	std:0.051
+2022-10-09 14:38:28.190 | WARNING  | __main__:<cell line: 183>:183 - f1		mean:0.763	std:0.046
+2022-10-09 14:38:28.206 | WARNING  | __main__:<cell line: 185>:185 - zero_one		mean:0.357	std:0.071
+2022-10-09 14:38:28.206 | WARNING  | __main__:<cell line: 187>:187 - hamming_loss		mean:0.278	std:0.055
+2022-10-09 14:39:59.923 | INFO     | __main__:<cell line: 147>:147 - 0.8387096774193549
+2022-10-09 14:39:59.923 | INFO     | __main__:<cell line: 148>:148 - {'max_depth': 3, 'grow_policy': 'lossguide', 'learning_rate': 0.00011379285918970316, 'gamma': 4.501645514096765e-08, 'reg_lambda': 0.06605149322284826, 'reg_alpha': 0.10028582115864632, 'subsample': 0.373224225354457, 'colsample_bytree': 0.5938999389881476}
+2022-10-09 14:40:00.317 | WARNING  | __main__:<cell line: 160>:176 - 0.588	0.749	0.708	0.728	0.412	0.32
+2022-10-09 14:40:00.679 | WARNING  | __main__:<cell line: 160>:176 - 0.608	0.758	0.727	0.742	0.392	0.305
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 160>:176 - 0.703	0.81	0.795	0.803	0.297	0.231
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 179>:179 - accuracy		mean:0.633	std:0.05
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 181>:181 - precision		mean:0.772	std:0.027
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 183>:183 - recall		mean:0.744	std:0.037
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 185>:185 - f1		mean:0.758	std:0.032
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 187>:187 - zero_one		mean:0.367	std:0.05
+2022-10-09 14:40:01.124 | WARNING  | __main__:<cell line: 189>:189 - hamming_loss		mean:0.285	std:0.039
+2022-10-09 14:40:56.388 | INFO     | __main__:<cell line: 147>:147 - 0.8064516129032258
+2022-10-09 14:40:56.388 | INFO     | __main__:<cell line: 148>:148 - {'max_depth': 3, 'grow_policy': 'lossguide', 'learning_rate': 0.017620516618768296, 'gamma': 0.00018096055245619735, 'reg_lambda': 3.653449287624482e-08, 'reg_alpha': 2.0901165281121214e-07, 'subsample': 0.417957872015846, 'colsample_bytree': 0.5953066095509818}
+2022-10-09 14:40:56.802 | WARNING  | __main__:<cell line: 160>:176 - 0.656	0.782	0.77	0.776	0.344	0.268
+2022-10-09 14:40:57.228 | WARNING  | __main__:<cell line: 160>:176 - 0.59	0.757	0.705	0.73	0.41	0.319
+2022-10-09 14:40:57.642 | WARNING  | __main__:<cell line: 160>:176 - 0.607	0.758	0.726	0.742	0.393	0.306
+2022-10-09 14:40:58.071 | WARNING  | __main__:<cell line: 160>:176 - 0.689	0.803	0.785	0.794	0.311	0.242
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 160>:176 - 0.787	0.86	0.857	0.858	0.213	0.166
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 179>:179 - accuracy		mean:0.666	std:0.07
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 181>:181 - precision		mean:0.792	std:0.038
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 183>:183 - recall		mean:0.769	std:0.053
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 185>:185 - f1		mean:0.78	std:0.045
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 187>:187 - zero_one		mean:0.334	std:0.07
+2022-10-09 14:40:58.486 | WARNING  | __main__:<cell line: 189>:189 - hamming_loss		mean:0.26	std:0.054
+2022-10-09 14:51:01.886 | INFO     | __main__:<cell line: 147>:147 - 0.8064516129032258
+2022-10-09 14:51:01.886 | INFO     | __main__:<cell line: 148>:148 - {'max_depth': 12, 'grow_policy': 'lossguide', 'learning_rate': 5.409249234929033e-07, 'gamma': 1.4425266357687808e-06, 'reg_lambda': 1.0470047367782761e-07, 'reg_alpha': 1.4479831071453043e-08, 'subsample': 0.4196363994940181, 'colsample_bytree': 0.22198734780504337}
+2022-10-09 14:51:02.430 | WARNING  | __main__:<cell line: 160>:176 - 0.672	0.786	0.661	0.663	0.328	0.255
+2022-10-09 14:51:02.905 | WARNING  | __main__:<cell line: 160>:176 - 0.508	0.833	0.57	0.472	0.492	0.383
+2022-10-09 14:51:03.381 | WARNING  | __main__:<cell line: 160>:176 - 0.574	0.679	0.585	0.543	0.426	0.332
+2022-10-09 14:51:03.887 | WARNING  | __main__:<cell line: 160>:176 - 0.705	0.756	0.658	0.668	0.295	0.23
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 160>:176 - 0.754	0.758	0.664	0.682	0.246	0.191
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 179>:179 - accuracy		mean:0.643	std:0.089
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 181>:181 - precision		mean:0.762	std:0.05
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 183>:183 - recall		mean:0.628	std:0.041
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 185>:185 - f1		mean:0.606	std:0.083
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 187>:187 - zero_one		mean:0.357	std:0.089
+2022-10-09 14:51:04.393 | WARNING  | __main__:<cell line: 189>:189 - hamming_loss		mean:0.278	std:0.07

@@ -1,0 +1,123 @@
+2022-11-28 14:49:39.151 | INFO     | __main__:<module>:44 - 使用嵌入法 RandomForestClassifier 进行特征选择,剩余(1022, 18)个特征
+2022-11-28 14:49:39.152 | INFO     | __main__:<module>:45 - 剩余的特征为:['age', 'weight', 'diabetic nephropathy', 'albumin', 'total bilirubin', 'urea', 'creatinine', 'Uric Acid', 'total cholesterol', 'glycosylated hemoglobin', 'activated partial thromboplastin time', 'urine protein quantity', '24h urine protein quantity', 'Diabetes duration', 'C2/C0', 'NLR', 'PLR', 'HOMA-IR']
+2022-11-28 14:49:39.153 | INFO     | __main__:<module>:52 - 使用 SMOTETomek 混合采样
+2022-11-28 14:49:39.154 | INFO     | __main__:<module>:55 - 数据平衡前：非DPN组有422条,DPN组有600条
+2022-11-28 14:49:39.185 | INFO     | __main__:<module>:57 - 数据平衡后：非DPN组有569条,DPN组有569条
+2022-11-28 14:49:39.329 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 7, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=7, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-28 14:49:39.761 | WARNING  | __main__:<module>:39 - 0.693	0.729	0.614	0.667
+2022-11-28 14:49:40.186 | WARNING  | __main__:<module>:39 - 0.754	0.746	0.772	0.759
+2022-11-28 14:49:40.588 | WARNING  | __main__:<module>:39 - 0.711	0.731	0.667	0.697
+2022-11-28 14:49:41.003 | WARNING  | __main__:<module>:39 - 0.684	0.691	0.667	0.679
+2022-11-28 14:49:41.409 | WARNING  | __main__:<module>:39 - 0.746	0.733	0.772	0.752
+2022-11-28 14:49:41.825 | WARNING  | __main__:<module>:39 - 0.728	0.732	0.719	0.726
+2022-11-28 14:49:42.244 | WARNING  | __main__:<module>:39 - 0.798	0.758	0.877	0.813
+2022-11-28 14:49:42.664 | WARNING  | __main__:<module>:39 - 0.684	0.698	0.649	0.673
+2022-11-28 14:49:43.089 | WARNING  | __main__:<module>:39 - 0.735	0.741	0.714	0.727
+2022-11-28 14:49:43.519 | WARNING  | __main__:<module>:39 - 0.726	0.703	0.789	0.744
+2022-11-28 14:49:43.521 | WARNING  | __main__:<module>:41 - accuracy		mean:0.726	std:0.034
+2022-11-28 14:49:43.522 | WARNING  | __main__:<module>:42 - precision		mean:0.726	std:0.021
+2022-11-28 14:49:43.523 | WARNING  | __main__:<module>:43 - recall		mean:0.724	std:0.075
+2022-11-28 14:49:43.524 | WARNING  | __main__:<module>:44 - f1		mean:0.724	std:0.044
+2022-11-28 14:49:44.132 | INFO     | __main__:<module>:3 - 测试集指标:0.684	0.713	0.757	0.734
+2022-11-28 14:50:32.156 | INFO     | __main__:<module>:21 - 调参结束，最佳结果为:0.7531176225524233
+2022-11-28 14:50:32.157 | INFO     | __main__:<module>:22 - 调参结束，最佳参数为:{'C': 0.9747472700071718, 'gamma': 0.4828829369278085}
+2022-11-28 14:50:32.238 | WARNING  | __main__:<module>:6 - {'C': 0.9747472700071718, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.4828829369278085, 'kernel': 'rbf', 'max_iter': -1, 'probability': True, 'random_state': 43, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-28 14:50:32.517 | WARNING  | __main__:<module>:19 - 0.807	0.761	0.895	0.823
+2022-11-28 14:50:32.787 | WARNING  | __main__:<module>:19 - 0.746	0.706	0.842	0.768
+2022-11-28 14:50:33.053 | WARNING  | __main__:<module>:19 - 0.754	0.71	0.86	0.778
+2022-11-28 14:50:33.319 | WARNING  | __main__:<module>:19 - 0.807	0.769	0.877	0.82
+2022-11-28 14:50:33.583 | WARNING  | __main__:<module>:19 - 0.728	0.681	0.86	0.76
+2022-11-28 14:50:33.857 | WARNING  | __main__:<module>:19 - 0.781	0.758	0.825	0.79
+2022-11-28 14:50:34.132 | WARNING  | __main__:<module>:19 - 0.754	0.73	0.807	0.767
+2022-11-28 14:50:34.400 | WARNING  | __main__:<module>:19 - 0.763	0.734	0.825	0.777
+2022-11-28 14:50:34.665 | WARNING  | __main__:<module>:19 - 0.788	0.75	0.857	0.8
+2022-11-28 14:50:34.937 | WARNING  | __main__:<module>:19 - 0.735	0.68	0.895	0.773
+2022-11-28 14:50:34.938 | WARNING  | __main__:<module>:21 - 验证集:accuracy	mean:0.766	std:0.027
+2022-11-28 14:50:34.940 | WARNING  | __main__:<module>:22 - 验证集:precision	mean:0.728	std:0.031
+2022-11-28 14:50:34.940 | WARNING  | __main__:<module>:23 - 验证集:recall		mean:0.854	std:0.028
+2022-11-28 14:50:34.941 | WARNING  | __main__:<module>:24 - 验证集:f1	mean:0.785	std:0.021
+2022-11-28 14:50:35.343 | INFO     | __main__:<module>:3 - 测试集指标:0.664	0.648	0.919	0.76
+2022-11-28 14:51:44.950 | INFO     | __main__:<module>:16 - 调参结束，最佳结果为:0.7047956302365413
+2022-11-28 14:51:44.951 | INFO     | __main__:<module>:17 - 调参结束，最佳参数为:{'penalty': 'none', 'C': 0.00038752872779618193, 'max_iter': 586}
+2022-11-28 14:51:45.010 | WARNING  | __main__:<module>:15 - {'C': 0.00038752872779618193, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 586, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'none', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+2022-11-28 14:51:45.026 | WARNING  | __main__:<module>:28 - 0.728	0.724	0.737	0.73
+2022-11-28 14:51:45.038 | WARNING  | __main__:<module>:28 - 0.658	0.65	0.684	0.667
+2022-11-28 14:51:45.052 | WARNING  | __main__:<module>:28 - 0.684	0.706	0.632	0.667
+2022-11-28 14:51:45.066 | WARNING  | __main__:<module>:28 - 0.684	0.698	0.649	0.673
+2022-11-28 14:51:45.081 | WARNING  | __main__:<module>:28 - 0.728	0.724	0.737	0.73
+2022-11-28 14:51:45.096 | WARNING  | __main__:<module>:28 - 0.667	0.673	0.649	0.661
+2022-11-28 14:51:45.109 | WARNING  | __main__:<module>:28 - 0.667	0.667	0.667	0.667
+2022-11-28 14:51:45.121 | WARNING  | __main__:<module>:28 - 0.684	0.691	0.667	0.679
+2022-11-28 14:51:45.133 | WARNING  | __main__:<module>:28 - 0.699	0.704	0.679	0.691
+2022-11-28 14:51:45.147 | WARNING  | __main__:<module>:28 - 0.681	0.691	0.667	0.679
+2022-11-28 14:51:45.148 | WARNING  | __main__:<module>:30 - 验证集:accuracy	mean:0.688	std:0.023
+2022-11-28 14:51:45.149 | WARNING  | __main__:<module>:31 - 验证集:precision	mean:0.693	std:0.023
+2022-11-28 14:51:45.149 | WARNING  | __main__:<module>:32 - 验证集:recall		mean:0.677	std:0.033
+2022-11-28 14:51:45.150 | WARNING  | __main__:<module>:33 - 验证集:f1	mean:0.684	std:0.024
+2022-11-28 14:51:45.194 | INFO     | __main__:<module>:3 - 测试集指标:0.699	0.763	0.696	0.728
+2022-11-28 14:53:58.502 | INFO     | __main__:<module>:20 - 调参结束，最佳结果为:0.7294148960792483
+2022-11-28 14:53:58.503 | INFO     | __main__:<module>:21 - 调参结束，最佳参数为:{'n_estimators': 207, 'max_depth': 14, 'min_samples_split': 3}
+2022-11-28 14:53:58.605 | WARNING  | __main__:<module>:11 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 7, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=7, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-28 14:53:59.069 | WARNING  | __main__:<module>:24 - 0.754	0.796	0.684	0.736
+2022-11-28 14:53:59.519 | WARNING  | __main__:<module>:24 - 0.711	0.731	0.667	0.697
+2022-11-28 14:53:59.970 | WARNING  | __main__:<module>:24 - 0.728	0.76	0.667	0.71
+2022-11-28 14:54:00.420 | WARNING  | __main__:<module>:24 - 0.737	0.755	0.702	0.727
+2022-11-28 14:54:00.872 | WARNING  | __main__:<module>:24 - 0.789	0.78	0.807	0.793
+2022-11-28 14:54:01.322 | WARNING  | __main__:<module>:24 - 0.798	0.827	0.754	0.789
+2022-11-28 14:54:01.777 | WARNING  | __main__:<module>:24 - 0.789	0.77	0.825	0.797
+2022-11-28 14:54:02.233 | WARNING  | __main__:<module>:24 - 0.684	0.714	0.614	0.66
+2022-11-28 14:54:02.685 | WARNING  | __main__:<module>:24 - 0.788	0.82	0.732	0.774
+2022-11-28 14:54:03.140 | WARNING  | __main__:<module>:24 - 0.726	0.717	0.754	0.735
+2022-11-28 14:54:03.141 | WARNING  | __main__:<module>:26 - 验证集:accuracy	mean:0.75	std:0.037
+2022-11-28 14:54:03.142 | WARNING  | __main__:<module>:27 - 验证集:precision	mean:0.767	std:0.038
+2022-11-28 14:54:03.142 | WARNING  | __main__:<module>:28 - 验证集:recall		mean:0.721	std:0.063
+2022-11-28 14:54:03.143 | WARNING  | __main__:<module>:29 - 验证集:f1	mean:0.742	std:0.043
+2022-11-28 14:54:03.680 | INFO     | __main__:<module>:3 - 测试集 accuracy=0.715	precision=0.736	recall=0.791	f1=0.762
+2022-11-28 14:54:11.073 | INFO     | __main__:<module>:15 - 调参结束，最佳结果为:0.6450492987085127
+2022-11-28 14:54:11.074 | INFO     | __main__:<module>:16 - 调参结束，最佳参数为:{'criterion': 'entropy', 'max_depth': 9}
+2022-11-28 14:54:11.133 | WARNING  | __main__:<module>:14 - {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 9, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 43, 'splitter': 'best'}
+2022-11-28 14:54:11.153 | WARNING  | __main__:<module>:27 - 0.702	0.689	0.737	0.712
+2022-11-28 14:54:11.174 | WARNING  | __main__:<module>:27 - 0.649	0.673	0.579	0.623
+2022-11-28 14:54:11.194 | WARNING  | __main__:<module>:27 - 0.614	0.659	0.474	0.551
+2022-11-28 14:54:11.213 | WARNING  | __main__:<module>:27 - 0.693	0.712	0.649	0.679
+2022-11-28 14:54:11.232 | WARNING  | __main__:<module>:27 - 0.772	0.86	0.649	0.74
+2022-11-28 14:54:11.252 | WARNING  | __main__:<module>:27 - 0.693	0.75	0.579	0.653
+2022-11-28 14:54:11.271 | WARNING  | __main__:<module>:27 - 0.684	0.723	0.596	0.654
+2022-11-28 14:54:11.291 | WARNING  | __main__:<module>:27 - 0.649	0.689	0.544	0.608
+2022-11-28 14:54:11.309 | WARNING  | __main__:<module>:27 - 0.779	0.86	0.661	0.747
+2022-11-28 14:54:11.327 | WARNING  | __main__:<module>:27 - 0.673	0.7	0.614	0.654
+2022-11-28 14:54:11.327 | WARNING  | __main__:<module>:29 - 验证集:accuracy	mean:0.691	std:0.049
+2022-11-28 14:54:11.328 | WARNING  | __main__:<module>:30 - 验证集:precision	mean:0.732	std:0.069
+2022-11-28 14:54:11.330 | WARNING  | __main__:<module>:31 - 验证集:recall		mean:0.608	std:0.068
+2022-11-28 14:54:11.330 | WARNING  | __main__:<module>:32 - 验证集:f1	mean:0.662	std:0.058
+2022-11-28 14:54:11.411 | INFO     | __main__:<module>:3 - 测试集指标:0.625	0.676	0.676	0.676
+2022-11-28 14:54:11.811 | WARNING  | __main__:<module>:19 - 0.711	0.9	0.474	0.621
+2022-11-28 14:54:11.824 | WARNING  | __main__:<module>:19 - 0.702	0.848	0.491	0.622
+2022-11-28 14:54:11.838 | WARNING  | __main__:<module>:19 - 0.711	0.9	0.474	0.621
+2022-11-28 14:54:11.853 | WARNING  | __main__:<module>:19 - 0.684	0.889	0.421	0.571
+2022-11-28 14:54:11.866 | WARNING  | __main__:<module>:19 - 0.746	0.889	0.561	0.688
+2022-11-28 14:54:11.880 | WARNING  | __main__:<module>:19 - 0.667	0.852	0.404	0.548
+2022-11-28 14:54:11.893 | WARNING  | __main__:<module>:19 - 0.588	0.727	0.281	0.405
+2022-11-28 14:54:11.904 | WARNING  | __main__:<module>:19 - 0.649	0.87	0.351	0.5
+2022-11-28 14:54:11.914 | WARNING  | __main__:<module>:19 - 0.673	1.0	0.339	0.507
+2022-11-28 14:54:11.924 | WARNING  | __main__:<module>:19 - 0.69	0.824	0.491	0.615
+2022-11-28 14:54:11.925 | WARNING  | __main__:<module>:21 - accuracy		mean:0.682	std:0.041
+2022-11-28 14:54:11.926 | WARNING  | __main__:<module>:22 - precision		mean:0.87	std:0.065
+2022-11-28 14:54:11.927 | WARNING  | __main__:<module>:23 - recall		mean:0.429	std:0.081
+2022-11-28 14:54:11.928 | WARNING  | __main__:<module>:24 - f1		mean:0.57	std:0.078
+2022-11-28 14:54:12.001 | INFO     | __main__:<module>:3 - 测试集指标:0.586	0.769	0.405	0.531
+2022-11-28 14:54:12.431 | WARNING  | __main__:<module>:19 - 0.658	0.909	0.351	0.506
+2022-11-28 14:54:12.439 | WARNING  | __main__:<module>:19 - 0.605	0.731	0.333	0.458
+2022-11-28 14:54:12.449 | WARNING  | __main__:<module>:19 - 0.561	0.667	0.246	0.359
+2022-11-28 14:54:12.459 | WARNING  | __main__:<module>:19 - 0.561	0.733	0.193	0.306
+2022-11-28 14:54:12.469 | WARNING  | __main__:<module>:19 - 0.623	0.792	0.333	0.469
+2022-11-28 14:54:12.477 | WARNING  | __main__:<module>:19 - 0.588	0.857	0.211	0.338
+2022-11-28 14:54:12.484 | WARNING  | __main__:<module>:19 - 0.632	0.759	0.386	0.512
+2022-11-28 14:54:12.492 | WARNING  | __main__:<module>:19 - 0.561	0.706	0.211	0.324
+2022-11-28 14:54:12.501 | WARNING  | __main__:<module>:19 - 0.593	0.812	0.232	0.361
+2022-11-28 14:54:12.509 | WARNING  | __main__:<module>:19 - 0.584	0.727	0.281	0.405
+2022-11-28 14:54:12.510 | WARNING  | __main__:<module>:21 - accuracy		mean:0.597	std:0.031
+2022-11-28 14:54:12.511 | WARNING  | __main__:<module>:22 - precision		mean:0.769	std:0.07
+2022-11-28 14:54:12.512 | WARNING  | __main__:<module>:23 - recall		mean:0.278	std:0.065
+2022-11-28 14:54:12.513 | WARNING  | __main__:<module>:24 - f1		mean:0.404	std:0.073
+2022-11-28 14:54:12.574 | INFO     | __main__:<module>:3 - 测试集指标:0.586	0.769	0.405	0.531

@@ -1,0 +1,86 @@
+2022-11-19 20:38:06.197 | INFO     | __main__:<module>:50 - 使用嵌入法 RandomForestClassifier 进行特征选择,剩余(894, 16)个特征
+2022-11-19 20:38:06.197 | INFO     | __main__:<module>:54 - 剩余的特征是：['age', 'weight', 'mean platelets volume', 'albumin', 'total bilirubin', 'urea', 'creatinine', 'glycosylated hemoglobin', 'activated partial thromboplastin time', 'urine protein quantity', '24h urine protein quantity', 'Diabetes duration', 'C2/C0', 'NLR', 'PLR', 'HOMA-IR']
+2022-11-19 20:38:06.198 | INFO     | __main__:<module>:58 - 使用 SMOTETomek 混合采样
+2022-11-19 20:38:06.200 | INFO     | __main__:<module>:61 - 数据平衡前：非DPN组有376条,DPN组有518条
+2022-11-19 20:38:06.224 | INFO     | __main__:<module>:63 - 数据平衡后：非DPN组有475条,DPN组有475条
+2022-11-19 20:38:39.307 | INFO     | __main__:<module>:20 - 调参结束，最佳结果为:0.6640625
+2022-11-19 20:38:39.308 | INFO     | __main__:<module>:21 - 调参结束，最佳参数为:{'C': 0.13543752876038817, 'gamma': 0.05245942506612806}
+2022-11-19 20:38:39.385 | WARNING  | __main__:<module>:6 - {'C': 0.13543752876038817, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.05245942506612806, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-19 20:40:02.262 | WARNING  | __main__:<module>:6 - {'C': 0.13543752876038817, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.05245942506612806, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-19 20:40:02.307 | WARNING  | __main__:<module>:19 - 0.705	0.708	0.708	0.708
+2022-11-19 20:40:02.349 | WARNING  | __main__:<module>:19 - 0.695	0.711	0.667	0.688
+2022-11-19 20:40:02.389 | WARNING  | __main__:<module>:19 - 0.674	0.718	0.583	0.644
+2022-11-19 20:40:02.428 | WARNING  | __main__:<module>:19 - 0.811	0.857	0.75	0.8
+2022-11-19 20:40:02.465 | WARNING  | __main__:<module>:19 - 0.642	0.667	0.583	0.622
+2022-11-19 20:40:02.506 | WARNING  | __main__:<module>:19 - 0.632	0.65	0.553	0.598
+2022-11-19 20:40:02.547 | WARNING  | __main__:<module>:19 - 0.6	0.615	0.511	0.558
+2022-11-19 20:40:02.586 | WARNING  | __main__:<module>:19 - 0.747	0.745	0.745	0.745
+2022-11-19 20:40:02.625 | WARNING  | __main__:<module>:19 - 0.726	0.723	0.723	0.723
+2022-11-19 20:40:02.663 | WARNING  | __main__:<module>:19 - 0.779	0.783	0.766	0.774
+2022-11-19 20:40:02.665 | WARNING  | __main__:<module>:21 - accuracy		mean:0.701	std:0.063
+2022-11-19 20:40:02.666 | WARNING  | __main__:<module>:22 - precision		mean:0.718	std:0.065
+2022-11-19 20:40:02.667 | WARNING  | __main__:<module>:23 - recall		mean:0.659	std:0.089
+2022-11-19 20:40:02.668 | WARNING  | __main__:<module>:24 - f1		mean:0.686	std:0.075
+2022-11-19 20:40:37.776 | INFO     | __main__:<module>:20 - 调参结束，最佳结果为:0.6640625
+2022-11-19 20:40:37.777 | INFO     | __main__:<module>:21 - 调参结束，最佳参数为:{'C': 0.08242530858651305, 'gamma': 0.05605676131938211}
+2022-11-19 20:40:44.223 | WARNING  | __main__:<module>:6 - {'C': 0.08242530858651305, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.05605676131938211, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-19 20:40:44.268 | WARNING  | __main__:<module>:19 - 0.695	0.694	0.708	0.701
+2022-11-19 20:40:44.322 | WARNING  | __main__:<module>:19 - 0.716	0.733	0.688	0.71
+2022-11-19 20:40:44.367 | WARNING  | __main__:<module>:19 - 0.653	0.683	0.583	0.629
+2022-11-19 20:40:44.408 | WARNING  | __main__:<module>:19 - 0.8	0.854	0.729	0.787
+2022-11-19 20:40:44.447 | WARNING  | __main__:<module>:19 - 0.611	0.634	0.542	0.584
+2022-11-19 20:40:44.488 | WARNING  | __main__:<module>:19 - 0.663	0.683	0.596	0.636
+2022-11-19 20:40:44.533 | WARNING  | __main__:<module>:19 - 0.611	0.625	0.532	0.575
+2022-11-19 20:40:44.575 | WARNING  | __main__:<module>:19 - 0.747	0.745	0.745	0.745
+2022-11-19 20:40:44.618 | WARNING  | __main__:<module>:19 - 0.747	0.735	0.766	0.75
+2022-11-19 20:40:44.657 | WARNING  | __main__:<module>:19 - 0.789	0.787	0.787	0.787
+2022-11-19 20:40:44.658 | WARNING  | __main__:<module>:21 - accuracy		mean:0.703	std:0.065
+2022-11-19 20:40:44.659 | WARNING  | __main__:<module>:22 - precision		mean:0.717	std:0.066
+2022-11-19 20:40:44.660 | WARNING  | __main__:<module>:23 - recall		mean:0.668	std:0.091
+2022-11-19 20:40:44.661 | WARNING  | __main__:<module>:24 - f1		mean:0.69	std:0.075
+2022-11-19 20:59:40.992 | INFO     | __main__:<module>:20 - 调参结束，最佳结果为:0.7715789473684211
+2022-11-19 20:59:40.993 | INFO     | __main__:<module>:21 - 调参结束，最佳参数为:{'C': 0.9933506063375941, 'gamma': 0.698956828253834}
+2022-11-19 21:02:41.471 | WARNING  | __main__:<module>:6 - {'C': 0.9933506063375941, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.698956828253834, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-19 21:02:41.553 | WARNING  | __main__:<module>:21 - accuracy	:0.604
+2022-11-19 21:02:41.554 | WARNING  | __main__:<module>:22 - precision	:nan
+2022-11-19 21:02:41.555 | WARNING  | __main__:<module>:23 - recall	:nan
+2022-11-19 21:02:41.556 | WARNING  | __main__:<module>:24 - f1	:nan
+2022-11-19 21:03:02.845 | WARNING  | __main__:<module>:6 - {'C': 0.9933506063375941, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.698956828253834, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-19 21:03:02.934 | WARNING  | __main__:<module>:21 - accuracy	:0.604
+2022-11-19 21:03:02.935 | WARNING  | __main__:<module>:22 - precision	:nan
+2022-11-19 21:03:02.937 | WARNING  | __main__:<module>:23 - recall	:nan
+2022-11-19 21:03:02.938 | WARNING  | __main__:<module>:24 - f1	:nan
+2022-11-19 21:04:12.959 | WARNING  | __main__:<module>:6 - {'C': 0.9933506063375941, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.698956828253834, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-19 21:04:13.044 | WARNING  | __main__:<module>:21 - accuracy	:0.604
+2022-11-19 21:04:13.045 | WARNING  | __main__:<module>:22 - precision	:0.615
+2022-11-19 21:04:13.046 | WARNING  | __main__:<module>:23 - recall	:0.909
+2022-11-19 21:04:13.046 | WARNING  | __main__:<module>:24 - f1	:0.733
+2022-11-19 21:16:22.655 | INFO     | __main__:<module>:26 - 调参结束，最佳结果为:0.7305263157894737
+2022-11-19 21:16:22.657 | INFO     | __main__:<module>:27 - 调参结束，最佳参数为:{'n_estimators': 300, 'max_depth': 14, 'grow_policy': 'lossguide', 'learning_rate': 0.02064999585343896, 'gamma': 0.014869609914246395, 'reg_lambda': 1.91417184203005e-05, 'reg_alpha': 2.24392920274892e-06, 'subsample': 0.41752235305036356, 'colsample_bytree': 0.7487522360021205}
+2022-11-19 21:18:09.200 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-19 21:18:09.549 | WARNING  | __main__:<module>:39 - accuracy	:0.641
+2022-11-19 21:18:09.550 | WARNING  | __main__:<module>:40 - precision	:0.692
+2022-11-19 21:18:09.551 | WARNING  | __main__:<module>:41 - recall	:0.722
+2022-11-19 21:18:09.552 | WARNING  | __main__:<module>:42 - f1	:0.706
+2022-11-19 21:29:02.585 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-19 21:29:03.241 | WARNING  | __main__:<module>:56 - 0.737	0.725	0.771	0.747
+2022-11-19 21:29:03.585 | WARNING  | __main__:<module>:56 - 0.768	0.795	0.729	0.761
+2022-11-19 21:29:03.957 | WARNING  | __main__:<module>:56 - 0.737	0.745	0.729	0.737
+2022-11-19 21:29:04.285 | WARNING  | __main__:<module>:56 - 0.842	0.902	0.771	0.831
+2022-11-19 21:29:04.610 | WARNING  | __main__:<module>:56 - 0.737	0.756	0.708	0.731
+2022-11-19 21:29:04.973 | WARNING  | __main__:<module>:56 - 0.642	0.651	0.596	0.622
+2022-11-19 21:29:05.291 | WARNING  | __main__:<module>:56 - 0.684	0.681	0.681	0.681
+2022-11-19 21:29:05.624 | WARNING  | __main__:<module>:56 - 0.737	0.712	0.787	0.747
+2022-11-19 21:29:05.923 | WARNING  | __main__:<module>:56 - 0.768	0.766	0.766	0.766
+2022-11-19 21:29:06.235 | WARNING  | __main__:<module>:56 - 0.789	0.829	0.723	0.773
+2022-11-19 21:29:06.236 | WARNING  | __main__:<module>:58 - accuracy		mean:0.744	std:0.052
+2022-11-19 21:29:06.237 | WARNING  | __main__:<module>:59 - precision		mean:0.756	std:0.069
+2022-11-19 21:29:06.238 | WARNING  | __main__:<module>:60 - recall		mean:0.726	std:0.054
+2022-11-19 21:29:06.239 | WARNING  | __main__:<module>:61 - f1		mean:0.74	std:0.053
+2022-11-19 21:31:38.856 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-19 21:32:02.301 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-19 21:33:43.773 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-19 21:34:13.861 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-20 09:15:08.242 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-20 09:15:19.390 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-20 09:15:59.793 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=8, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}

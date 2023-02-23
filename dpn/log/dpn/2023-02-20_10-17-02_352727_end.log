@@ -1,0 +1,21 @@
+2023-02-20 10:17:02.836 | INFO     | __main__:<module>:44 - 使用嵌入法 RandomForestClassifier 进行特征选择,剩余(1022, 16)个特征
+2023-02-20 10:17:02.837 | INFO     | __main__:<module>:45 - 剩余的特征为:['age', 'diabetic nephropathy', 'diabetic retinopathy', 'mean platelets volume', 'albumin', 'total bilirubin', 'urea', 'creatinine', 'glycosylated hemoglobin', 'activated partial thromboplastin time', 'urine protein quantity', '24h urine protein quantity', 'Diabetes duration', 'C2/C0', 'NLR', 'HOMA-IR']
+2023-02-20 10:17:02.838 | INFO     | __main__:<module>:52 - 使用 SMOTETomek 混合采样
+2023-02-20 10:17:02.839 | INFO     | __main__:<module>:55 - 数据平衡前：非DPN组有430条,DPN组有592条
+2023-02-20 10:17:02.874 | INFO     | __main__:<module>:57 - 数据平衡后：非DPN组有548条,DPN组有548条
+2023-02-20 10:17:03.018 | WARNING  | __main__:<module>:26 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 7, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=7, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2023-02-20 10:17:03.463 | WARNING  | __main__:<module>:39 - 0.764	0.809	0.691	0.745
+2023-02-20 10:17:03.869 | WARNING  | __main__:<module>:39 - 0.7	0.712	0.673	0.692
+2023-02-20 10:17:04.287 | WARNING  | __main__:<module>:39 - 0.727	0.736	0.709	0.722
+2023-02-20 10:17:04.737 | WARNING  | __main__:<module>:39 - 0.664	0.661	0.673	0.667
+2023-02-20 10:17:05.127 | WARNING  | __main__:<module>:39 - 0.691	0.698	0.673	0.685
+2023-02-20 10:17:05.518 | WARNING  | __main__:<module>:39 - 0.655	0.655	0.655	0.655
+2023-02-20 10:17:05.907 | WARNING  | __main__:<module>:39 - 0.752	0.769	0.727	0.748
+2023-02-20 10:17:06.324 | WARNING  | __main__:<module>:39 - 0.771	0.788	0.745	0.766
+2023-02-20 10:17:06.714 | WARNING  | __main__:<module>:39 - 0.761	0.769	0.741	0.755
+2023-02-20 10:17:07.116 | WARNING  | __main__:<module>:39 - 0.743	0.724	0.778	0.75
+2023-02-20 10:17:07.117 | WARNING  | __main__:<module>:41 - accuracy		mean:0.723	std:0.041
+2023-02-20 10:17:07.118 | WARNING  | __main__:<module>:42 - precision		mean:0.732	std:0.05
+2023-02-20 10:17:07.119 | WARNING  | __main__:<module>:43 - recall		mean:0.706	std:0.038
+2023-02-20 10:17:07.121 | WARNING  | __main__:<module>:44 - f1		mean:0.718	std:0.038
+2023-02-20 10:17:07.739 | INFO     | __main__:<module>:3 - 测试集指标:0.629	0.736	0.609	0.667

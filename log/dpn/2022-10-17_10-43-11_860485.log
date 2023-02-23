@@ -1,0 +1,2 @@
+2022-10-17 11:35:09.221 | INFO     | __main__:<module>:106 - 0.8
+2022-10-17 11:35:09.221 | INFO     | __main__:<module>:107 - {'score_func': <class 'sklearn.svm._classes.LinearSVC'>, 'k': 34, 'max_depth': 3, 'grow_policy': 'depthwise', 'learning_rate': 0.39421725748102693, 'gamma': 0.006944335643441332, 'reg_lambda': 0.0727248509351361, 'reg_alpha': 5.04127875259491e-07, 'subsample': 0.28873259000807927, 'colsample_bytree': 0.5951272654725699}

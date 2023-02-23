@@ -1,0 +1,2 @@
+2022-10-22 09:27:14.763 | INFO     | __main__:<module>:148 - 0.7272727272727273
+2022-10-22 09:27:14.765 | INFO     | __main__:<module>:149 - {'n_estimators': 30, 'max_depth': 3, 'grow_policy': 'depthwise', 'learning_rate': 1.628818748414313e-07, 'gamma': 1.0279245576386145e-08, 'reg_lambda': 0.0013874282622369425, 'reg_alpha': 0.0897437960765142, 'subsample': 0.6915362191516349, 'colsample_bytree': 0.7131187388572966}

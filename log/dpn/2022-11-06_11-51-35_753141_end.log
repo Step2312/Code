@@ -1,0 +1,37 @@
+2022-11-06 11:51:36.309 | INFO     | __main__:<module>:80 - 使用嵌入法 RandomForestClassifier 进行特征选择,剩余(1278, 16)个特征
+2022-11-06 11:51:36.311 | INFO     | __main__:<module>:90 - 剩余的特征是：['年龄', '血红蛋白', '白蛋白', '总胆红素', '尿素', '肌酐', '尿酸', '总胆固醇', '糖化血红蛋白', '活化部分凝血活酶时间（APTT）', '尿蛋白定量', '24h尿蛋白定量', '病程', 'C2/C0', 'NLR', '胰岛素抵抗指数']
+2022-11-06 11:51:36.325 | INFO     | __main__:<module>:111 - 使用 SMOTETomek 混合采样
+2022-11-06 11:51:36.326 | INFO     | __main__:<module>:115 - 数据平衡前：非DPN组有530条,DPN组有748条
+2022-11-06 11:51:36.371 | INFO     | __main__:<module>:117 - 数据平衡后：非DPN组有700条,DPN组有700条
+2022-11-06 11:51:36.802 | WARNING  | __main__:<module>:27 - {'estimator__bootstrap': True, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 9, 'estimator__max_features': 'auto', 'estimator__max_leaf_nodes': None, 'estimator__max_samples': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_impurity_split': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__n_estimators': 200, 'estimator__n_jobs': None, 'estimator__oob_score': False, 'estimator__random_state': 43, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': RandomForestClassifier(max_depth=9, n_estimators=200, random_state=43), 'importance_getter': 'auto', 'max_features': None, 'norm_order': 1, 'prefit': True, 'threshold': None}
+2022-11-06 11:51:39.015 | WARNING  | __main__:<module>:41 - 0.686	0.717	0.614	0.662
+2022-11-06 11:51:39.559 | WARNING  | __main__:<module>:41 - 0.786	0.833	0.714	0.769
+2022-11-06 11:51:40.086 | WARNING  | __main__:<module>:41 - 0.757	0.773	0.729	0.75
+2022-11-06 11:51:40.615 | WARNING  | __main__:<module>:41 - 0.8	0.809	0.786	0.797
+2022-11-06 11:51:41.148 | WARNING  | __main__:<module>:41 - 0.707	0.723	0.671	0.696
+2022-11-06 11:51:41.673 | WARNING  | __main__:<module>:41 - 0.793	0.797	0.786	0.791
+2022-11-06 11:51:42.202 | WARNING  | __main__:<module>:41 - 0.743	0.758	0.714	0.735
+2022-11-06 11:51:42.730 | WARNING  | __main__:<module>:41 - 0.771	0.797	0.729	0.761
+2022-11-06 11:51:43.296 | WARNING  | __main__:<module>:41 - 0.757	0.781	0.714	0.746
+2022-11-06 11:51:43.812 | WARNING  | __main__:<module>:41 - 0.814	0.789	0.857	0.822
+2022-11-06 11:51:43.813 | WARNING  | __main__:<module>:43 - accuracy		mean:0.761	std:0.039
+2022-11-06 11:51:43.814 | WARNING  | __main__:<module>:44 - precision		mean:0.778	std:0.035
+2022-11-06 11:51:43.815 | WARNING  | __main__:<module>:45 - recall		mean:0.731	std:0.063
+2022-11-06 11:51:43.816 | WARNING  | __main__:<module>:46 - f1		mean:0.753	std:0.045
+2022-11-06 11:52:08.684 | INFO     | __main__:<module>:22 - 调参结束，最佳结果为:0.7571428571428571
+2022-11-06 11:52:08.689 | INFO     | __main__:<module>:23 - 调参结束，最佳参数为:{'C': 0.8602182662385771, 'gamma': 0.3703070912449939}
+2022-11-06 11:52:08.751 | WARNING  | __main__:<module>:11 - {'C': 0.8602182662385771, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.3703070912449939, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2022-11-06 11:52:08.833 | WARNING  | __main__:<module>:24 - 0.729	0.722	0.743	0.732
+2022-11-06 11:52:08.909 | WARNING  | __main__:<module>:24 - 0.764	0.723	0.857	0.784
+2022-11-06 11:52:08.986 | WARNING  | __main__:<module>:24 - 0.821	0.817	0.829	0.823
+2022-11-06 11:52:09.064 | WARNING  | __main__:<module>:24 - 0.764	0.728	0.843	0.781
+2022-11-06 11:52:09.143 | WARNING  | __main__:<module>:24 - 0.771	0.771	0.771	0.771
+2022-11-06 11:52:09.221 | WARNING  | __main__:<module>:24 - 0.779	0.767	0.8	0.783
+2022-11-06 11:52:09.299 | WARNING  | __main__:<module>:24 - 0.743	0.73	0.771	0.75
+2022-11-06 11:52:09.378 | WARNING  | __main__:<module>:24 - 0.807	0.831	0.771	0.8
+2022-11-06 11:52:09.456 | WARNING  | __main__:<module>:24 - 0.786	0.77	0.814	0.792
+2022-11-06 11:52:09.532 | WARNING  | __main__:<module>:24 - 0.757	0.731	0.814	0.77
+2022-11-06 11:52:09.533 | WARNING  | __main__:<module>:26 - accuracy		mean:0.772	std:0.026
+2022-11-06 11:52:09.534 | WARNING  | __main__:<module>:27 - precision		mean:0.759	std:0.038
+2022-11-06 11:52:09.534 | WARNING  | __main__:<module>:28 - recall		mean:0.801	std:0.035
+2022-11-06 11:52:09.535 | WARNING  | __main__:<module>:29 - f1		mean:0.779	std:0.024

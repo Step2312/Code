@@ -1,0 +1,11 @@
+2022-10-20 10:58:18.101 | INFO     | __main__:<module>:141 - 0.771689497716895
+2022-10-20 10:58:18.105 | INFO     | __main__:<module>:142 - {'score_func': 'f_classif', 'k': 38, 'n_estimators': 5024, 'max_depth': 10, 'grow_policy': 'lossguide', 'learning_rate': 0.002685963085243779, 'gamma': 4.304972169902749e-07, 'reg_lambda': 2.4437911118215944e-07, 'reg_alpha': 0.21831884902311574, 'subsample': 0.6965822874504806, 'colsample_bytree': 0.6038807798859489}
+2022-10-20 10:58:18.111 | INFO     | __main__:<module>:173 - 测试集特征筛选前:(219, 153)
+2022-10-20 10:58:18.118 | INFO     | __main__:<module>:175 - 测试集特征筛选后:(219, 38)
+2022-10-20 10:58:26.548 | WARNING  | __main__:<module>:197 - 0.822	0.0	0.0	0.0
+2022-10-20 10:58:36.644 | WARNING  | __main__:<module>:197 - 0.863	0.0	0.0	0.0
+2022-10-20 10:58:46.371 | WARNING  | __main__:<module>:197 - 0.89	0.0	0.0	0.0
+2022-10-20 10:58:47.516 | WARNING  | __main__:<module>:203 - accuracy		mean:0.858	std:0.028
+2022-10-20 10:58:47.519 | WARNING  | __main__:<module>:204 - precision		mean:0.0	std:0.0
+2022-10-20 10:58:47.520 | WARNING  | __main__:<module>:205 - recall		mean:0.0	std:0.0
+2022-10-20 10:58:47.522 | WARNING  | __main__:<module>:206 - f1		mean:0.0	std:0.0

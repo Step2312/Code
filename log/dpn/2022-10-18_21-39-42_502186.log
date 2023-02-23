@@ -1,0 +1,2 @@
+2022-10-18 21:45:43.152 | INFO     | __main__:<module>:129 - 0.9452054794520548
+2022-10-18 21:45:43.156 | INFO     | __main__:<module>:130 - {'score_func': 'chi2', 'k': 68, 'n_estimators': 5944, 'max_depth': 5, 'grow_policy': 'lossguide', 'learning_rate': 1.0438093702096177e-08, 'gamma': 5.046270900411346e-05, 'reg_lambda': 0.00019022431396090923, 'reg_alpha': 7.900814433710014e-06, 'subsample': 0.2524951635761825, 'colsample_bytree': 0.863790576106739}

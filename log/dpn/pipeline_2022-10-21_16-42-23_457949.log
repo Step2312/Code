@@ -1,0 +1,11 @@
+2022-10-21 16:42:46.984 | INFO     | __main__:<module>:144 - 0.8181818181818182
+2022-10-21 16:42:46.985 | INFO     | __main__:<module>:145 - {'score_func': 'mutual_info_classif', 'k': 50, 'n_estimators': 29, 'max_depth': 10, 'grow_policy': 'lossguide', 'learning_rate': 0.00045449015620848397, 'gamma': 3.7752720947696763e-06, 'reg_lambda': 1.0794085295306305e-05, 'reg_alpha': 3.4865235440986164e-05, 'subsample': 0.5587871053718809, 'colsample_bytree': 0.9978978760353394}
+2022-10-21 16:42:46.990 | INFO     | __main__:<module>:176 - 测试集特征筛选前:(110, 153)
+2022-10-21 16:42:47.248 | INFO     | __main__:<module>:178 - 测试集特征筛选后:(110, 50)
+2022-10-21 16:42:47.374 | WARNING  | __main__:<module>:197 - 0.685	0.694	0.766	0.728
+2022-10-21 16:42:48.014 | WARNING  | __main__:<module>:197 - 0.769	0.737	0.905	0.812
+2022-10-21 16:42:48.663 | WARNING  | __main__:<module>:197 - 0.78	0.771	0.856	0.811
+2022-10-21 16:42:49.268 | WARNING  | __main__:<module>:202 - accuracy		mean:0.745	std:0.043
+2022-10-21 16:42:49.269 | WARNING  | __main__:<module>:203 - precision		mean:0.734	std:0.032
+2022-10-21 16:42:49.270 | WARNING  | __main__:<module>:204 - recall		mean:0.842	std:0.058
+2022-10-21 16:42:49.271 | WARNING  | __main__:<module>:205 - f1		mean:0.784	std:0.039

@@ -1,0 +1,20 @@
+2023-02-22 14:59:39.604 | INFO     | __main__:<module>:80 - 使用嵌入法 RandomForestClassifier 进行特征选择,剩余(1278, 16)个特征
+2023-02-22 14:59:39.605 | INFO     | __main__:<module>:90 - 剩余的特征是：['age', 'alanine aminotransferase', 'albumin', 'total bilirubin', 'urea', 'creatinine', 'Uric Acid', 'total cholesterol', 'glycosylated hemoglobin', 'activated partial thromboplastin time', 'urine protein quantity', '24h urine protein quantity', 'Diabetes duration', 'C2/C0', 'NLR', 'HOMA-IR']
+2023-02-22 14:59:39.622 | INFO     | __main__:<module>:111 - 使用 SMOTETomek 混合采样
+2023-02-22 14:59:39.624 | INFO     | __main__:<module>:115 - 数据平衡前：非DPN组有530条,DPN组有748条
+2023-02-22 14:59:39.783 | INFO     | __main__:<module>:117 - 数据平衡后：非DPN组有702条,DPN组有702条
+2023-02-22 14:59:53.982 | WARNING  | __main__:<module>:26 - {'objective': 'binary:logistic', 'use_label_encoder': None, 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.661037320664513, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': 'logloss', 'feature_types': None, 'gamma': 1.2214671674376956e-05, 'gpu_id': None, 'grow_policy': 'lossguide', 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.04690250747972388, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 12, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 350, 'n_jobs': None, 'num_parallel_tree': None, 'predictor': None, 'random_state': 43, 'reg_alpha': 1.6642675952811388e-07, 'reg_lambda': 2.592776397904034e-05, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': 0.897341255267949, 'tree_method': 'exact', 'validate_parameters': None, 'verbosity': 0}
+2023-02-22 14:59:55.194 | WARNING  | __main__:<module>:40 - 0.794	0.818	0.761	0.788
+2023-02-22 14:59:55.637 | WARNING  | __main__:<module>:40 - 0.759	0.776	0.732	0.754
+2023-02-22 14:59:56.076 | WARNING  | __main__:<module>:40 - 0.801	0.8	0.8	0.8
+2023-02-22 14:59:56.535 | WARNING  | __main__:<module>:40 - 0.738	0.72	0.771	0.745
+2023-02-22 14:59:57.014 | WARNING  | __main__:<module>:40 - 0.714	0.721	0.7	0.71
+2023-02-22 14:59:57.499 | WARNING  | __main__:<module>:40 - 0.779	0.8	0.743	0.77
+2023-02-22 14:59:57.945 | WARNING  | __main__:<module>:40 - 0.757	0.781	0.714	0.746
+2023-02-22 14:59:58.397 | WARNING  | __main__:<module>:40 - 0.7	0.733	0.629	0.677
+2023-02-22 14:59:58.836 | WARNING  | __main__:<module>:40 - 0.771	0.839	0.671	0.746
+2023-02-22 14:59:59.322 | WARNING  | __main__:<module>:40 - 0.714	0.759	0.629	0.688
+2023-02-22 14:59:59.323 | WARNING  | __main__:<module>:42 - accuracy		mean:0.753	std:0.033
+2023-02-22 14:59:59.324 | WARNING  | __main__:<module>:43 - precision		mean:0.775	std:0.039
+2023-02-22 14:59:59.326 | WARNING  | __main__:<module>:44 - recall		mean:0.715	std:0.055
+2023-02-22 14:59:59.327 | WARNING  | __main__:<module>:45 - f1		mean:0.742	std:0.038

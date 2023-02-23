@@ -1,0 +1,16 @@
+2022-11-06 15:03:48.549 | INFO     | __main__:<module>:32 - TRAIN_XGB=False TUNE_TIMES=20 RANDOM_STATE=20
+2022-11-06 15:03:49.153 | WARNING  | __main__:<module>:108 - {'objective': 'binary:logistic', 'use_label_encoder': False, 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.6604573433687222, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': 'logloss', 'gamma': 0.8731716765537924, 'gpu_id': None, 'grow_policy': 'lossguide', 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.16988838433253076, 'max_bin': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 8, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 500, 'n_jobs': None, 'num_parallel_tree': None, 'predictor': None, 'random_state': 43, 'reg_alpha': 0.0003173545927786465, 'reg_lambda': 0.0013501913428471217, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': 0.8207157400822733, 'tree_method': 'exact', 'validate_parameters': None, 'verbosity': 0}
+2022-11-06 15:03:51.453 | WARNING  | __main__:<module>:122 - 0.686	0.717	0.614	0.662
+2022-11-06 15:03:52.054 | WARNING  | __main__:<module>:122 - 0.786	0.833	0.714	0.769
+2022-11-06 15:03:52.667 | WARNING  | __main__:<module>:122 - 0.757	0.773	0.729	0.75
+2022-11-06 15:03:53.260 | WARNING  | __main__:<module>:122 - 0.8	0.809	0.786	0.797
+2022-11-06 15:03:53.851 | WARNING  | __main__:<module>:122 - 0.707	0.723	0.671	0.696
+2022-11-06 15:03:54.480 | WARNING  | __main__:<module>:122 - 0.793	0.797	0.786	0.791
+2022-11-06 15:03:55.102 | WARNING  | __main__:<module>:122 - 0.743	0.758	0.714	0.735
+2022-11-06 15:03:55.721 | WARNING  | __main__:<module>:122 - 0.771	0.797	0.729	0.761
+2022-11-06 15:03:56.377 | WARNING  | __main__:<module>:122 - 0.757	0.781	0.714	0.746
+2022-11-06 15:03:56.967 | WARNING  | __main__:<module>:122 - 0.814	0.789	0.857	0.822
+2022-11-06 15:03:56.970 | WARNING  | __main__:<module>:124 - accuracy		mean:0.761	std:0.039
+2022-11-06 15:03:56.971 | WARNING  | __main__:<module>:125 - precision		mean:0.778	std:0.035
+2022-11-06 15:03:56.973 | WARNING  | __main__:<module>:126 - recall		mean:0.731	std:0.063
+2022-11-06 15:03:56.974 | WARNING  | __main__:<module>:127 - f1		mean:0.753	std:0.045

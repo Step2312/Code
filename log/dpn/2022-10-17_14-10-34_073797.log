@@ -1,6 +1,0 @@
-2022-10-17 14:18:37.242 | INFO     | __main__:<module>:106 - 0.817351598173516
-2022-10-17 14:18:37.249 | INFO     | __main__:<module>:107 - {'C': 5.412261121050702e-05, 'penality': 'l1', 'score_func': <function mutual_info_classif at 0x000002A861BFC8B0>, 'k': 62, 'n_estimators': 6845, 'max_depth': 23, 'grow_policy': 'depthwise', 'learning_rate': 0.030629640473653182, 'gamma': 1.0439157561980869e-08, 'reg_lambda': 0.9728922032099461, 'reg_alpha': 1.6656135302340082e-06, 'subsample': 0.24169350690262587, 'colsample_bytree': 0.23191346040487704}
-2022-10-17 21:02:43.175 | INFO     | __main__:<module>:62 - 使用嵌入法进行特征选择,剩余(1093, 52)个特征
-2022-10-17 21:02:43.180 | INFO     | __main__:<module>:98 - 使用 SMOTETomek 混合采样
-2022-10-17 21:02:43.226 | INFO     | __main__:<module>:103 - 数据平衡前：非DPN组有492条,DPN组有601条
-2022-10-17 21:02:43.231 | INFO     | __main__:<module>:104 - 数据平衡后：非DPN组有560条,DPN组有560条

@@ -1,4 +1,0 @@
-2022-10-22 09:26:37.261 | INFO     | __main__:<module>:148 - 0.7373737373737373
-2022-10-22 09:26:37.263 | INFO     | __main__:<module>:149 - {'n_estimators': 40, 'max_depth': 4, 'grow_policy': 'lossguide', 'learning_rate': 0.0004900252115327313, 'gamma': 0.000343571766390683, 'reg_lambda': 1.7990139973550074e-07, 'reg_alpha': 0.11525504062628453, 'subsample': 0.5009256521028502, 'colsample_bytree': 0.8703097828467635}
-2022-10-22 09:27:14.763 | INFO     | __main__:<module>:148 - 0.7272727272727273
-2022-10-22 09:27:14.765 | INFO     | __main__:<module>:149 - {'n_estimators': 30, 'max_depth': 3, 'grow_policy': 'depthwise', 'learning_rate': 1.628818748414313e-07, 'gamma': 1.0279245576386145e-08, 'reg_lambda': 0.0013874282622369425, 'reg_alpha': 0.0897437960765142, 'subsample': 0.6915362191516349, 'colsample_bytree': 0.7131187388572966}
